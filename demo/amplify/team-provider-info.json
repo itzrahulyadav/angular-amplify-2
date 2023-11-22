@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-plutus-dev-102125-authRole",
+      "UnauthRoleArn": "arn:aws:iam::192043038610:role/amplify-plutus-dev-102125-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::192043038610:role/amplify-plutus-dev-102125-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-plutus-dev-102125-deployment",
+      "UnauthRoleName": "amplify-plutus-dev-102125-unauthRole",
+      "StackName": "amplify-plutus-dev-102125",
+      "StackId": "arn:aws:cloudformation:us-east-1:192043038610:stack/amplify-plutus-dev-102125/e58ce900-8920-11ee-a219-12e7ba142551",
+      "AmplifyAppId": "d1wcocx4f81qpm"
+    },
+    "categories": {
+      "auth": {
+        "plutus": {}
+      },
+      "analytics": {
+        "plutus": {}
+      }
+    }
+  }
+}

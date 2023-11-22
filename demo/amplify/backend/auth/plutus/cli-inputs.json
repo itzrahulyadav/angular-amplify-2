@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "plutus_identitypool_2f7203c1",
+    "allowUnauthenticatedIdentities": true,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "plutus",
+    "sharedId": "2f7203c1",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}

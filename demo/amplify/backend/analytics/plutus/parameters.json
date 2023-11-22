@@ -1,0 +1,21 @@
+{
+    "appName": "plutus",
+    "roleName": "pinpointLambdaRoleb04a04c3",
+    "cloudformationPolicyName": "cloudformationPolicyb04a04c3",
+    "cloudWatchPolicyName": "cloudWatchPolicyb04a04c3",
+    "pinpointPolicyName": "pinpointPolicyb04a04c3",
+    "authPolicyName": "pinpoint_amplify_b04a04c3",
+    "unauthPolicyName": "pinpoint_amplify_b04a04c3",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
